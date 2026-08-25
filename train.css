@@ -1,0 +1,151 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing:border-box ; 
+}
+body{
+    background-image:url(./images/4a7058bb-c203-44fe-99fe-abf89260f95f.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh; 
+
+}
+header{
+width: 100%;
+display: flex;
+align-items: center;
+
+
+}
+header img{
+ margin-left: 40px;
+ width: 140px;
+  animation: logoMove 1s ease;
+}
+.nav{
+    display: flex;
+    align-items: center;
+   width: 100%;
+   gap: 40px;
+   margin-left: 400px;
+   font-size: larger;
+   font-weight: 400;
+   color: #89e1e1;
+    animation: navDown 1s ease;
+
+}
+.phone{
+margin-left: 400px;
+
+}
+.m1{
+font-size: larger;
+color: #cd887c;
+
+}
+.m1:hover{transform: translateY(10px);
+transition: all 0.3s ease;
+    cursor: pointer;
+}
+.m2{
+font-size: larger;
+color: #89e1e1;
+
+}
+.m2:hover{transform: translateY(10px);
+transition: all 0.3s ease;
+    cursor: pointer;
+}
+.m3{
+font-size: larger;
+color: #89e1e1;
+
+}
+.m3:hover{transform: translateY(10px);
+transition: all 0.3s ease;
+    cursor: pointer;
+}
+.m4{
+font-size: larger;
+color: #89e1e1;
+
+}
+.m4:hover{transform: translateY(10px);
+transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+
+.content{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+}
+.tex1{ 
+    font-size:x-large;
+        background-color: #55cbd4;
+    color: white;
+    border-radius: 35px;
+    margin-left: 20px;
+    padding: 10px 25px ;
+
+}
+
+.tex2{
+    margin-top: 20px;
+    background-color: #55cbd4;
+    color: white;
+padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 22px;
+    margin-bottom: 25px;
+}
+.tex3{
+    color: black;
+font-size: large;
+margin-top: 20px;
+margin-left: 50px;
+
+
+}
+.btn{
+    color: white;
+    background-color: #cd6a59;
+font-size: 2rem;
+border-radius: 20px;
+margin-top: 20px;
+
+}
+.btn:hover{
+    transform: translateY(10px);
+transition: all 0.3s ease;
+    cursor: pointer;
+
+}
+@keyframes logoMove {
+
+    from {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }}
+
+    @keyframes navDown {
+
+    from {
+        transform: translateY(-70px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }}
